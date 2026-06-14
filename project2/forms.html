@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <label>Name:</label>
+            <input type="text"> <br><br>
+            <label>Number:</label>
+           <input type="number"> <br><br>
+           <label>Password:</label>
+           <input type="password"> <br><br>
+           <label>Gender:</label> <br><br>
+           <input type="radio"> Female <br><br>
+           <input type="radio"> Male <br><br>
+           <label>Which Countries you want to go to:</label>
+           <input type="checkbox"> Turkey <br><br>
+           <input type="checkbox"> Italy <br><br>
+           <input type="checkbox"> Egypt <br><br>
+           <label>Subject:</label>
+           <select>
+            <option>Maths</option>
+            <option>Physics</option>
+            <option>English</option>
+            <option>Computer Science</option>
+           </select> <br><br>
+           <input type="submit">  
+        </form>
+        <form>
+            <fieldset>
+                <legend><h3>Personal Information</h3></legend>
+                <label>Card details</label> 
+                <input type="number" name="card details">
+                <label>Birthday</label>
+                <input type="date"> 
+            </fieldset>
+        </form>
+        <form 
+        oninput="x.value=(Number(m1.value)+Number(m2.value))/2">
+            <fieldset>
+                <legend><h3>Marks Calculation</h3></legend>
+                <label>Marks:</label><br><br>
+                <select>
+                    <option>Maths</option>
+                    <option>Physics</option>
+                </select>
+                <input type="number" id="m1" name="m1"><br><br>
+                <select>
+                    <option>Maths</option>
+                    <option>Physics</option>
+                </select>
+                <input type="number" id="m2" name="m2">
+                Average: <output name="x" for="m1 m2"></output>
+            </fieldset>
+               
+        </form>
+    </body>
+</html>
