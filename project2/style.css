@@ -1,0 +1,24 @@
+*{
+    background-color: lightpurple;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+body{
+    background-image: linear-gradient(to bottom, darkblue, lightblue);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.start{
+    animation: twinkle 2s infinite alternate;
+}
+@keyframes twinkle {
+    from { background-color:aqua;}
+    to { background-color:black;}
+}
+.title {
+    color: whitesmoke;
+}
