@@ -5,7 +5,7 @@
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: darkblue;
+    color: rgb(234, 234, 238);
 }
 body{
     background-image: linear-gradient(to bottom, darkblue, lightblue);
@@ -17,7 +17,7 @@ body{
 }
 @keyframes twinkle {
     from { background-color:aqua;}
-    to { background-color:black;}
+    to { background-color:rgb(140, 140, 238);}
 }
 .title {
     color: whitesmoke;
