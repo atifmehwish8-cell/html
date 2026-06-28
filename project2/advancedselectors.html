@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Advanced selectors</title>
+    </head>
+
+    <style>
+     h1+p {
+        background-color:skyblue;
+        color: green;
+     }
+
+     h3:hover {
+        color:blueviolet;
+        background-color: yellowgreen;
+     }
+
+     p::first-letter {
+        font-size: 300px;
+        color: rgb(121, 2, 135);
+     }
+
+     h1 {
+        color: pink;
+     }
+
+     ul>li {
+        font-size: 20px;
+        color: crimson;
+     }
+
+     ul li:nth-child(3){
+        color: black;
+        background-color: gold;
+     }
+    </style>
+
+    <body>
+        <h1>Food menu</h1>
+        <p>List of foods for the menu.</p>
+        <h3>Hover style</h3>
+        <h2>MENU</h2>
+        <ul>
+            <li>FRIES</li>
+            <li>ZINGER BURGER</li>
+            <li>CHICKEN TENDERS</li>
+        </ul>
+    </body>
+</html>
