@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Utilities in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+     <style>
+        .jumbotron {
+            background-color:Gray;
+            color:white;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-left: 20px solid black;
+        }
+     </style>
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Science Lab</h1>
+                <p>Welcome to the Science Lab!</p>
+                <button class="btn btn-primary">Chemistry</button>
+                <button class="btn btn-success">Physics</button>
+                <button class="btn btn-warning">Biology</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Experiments Completed:</h2>
+            <p>Chemistry <span class="badge bg-primary">8 ExperimentsCompleted</span></p>
+            <p>Physics <span class="badge bg-success">7 Experiments Completed</span></p>
+            <p>Biology <span class="badge bg-warning">5 Experiments Completed</span></p>
+
+            <h2>Progress:</h2>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-primary" style="width: 70%"> Chemistry:70%</div>
+               
+                <div class="progress-bar bg-success" style="width: 50%">Physics: 50%</div>
+                
+                <div class="progress-bar bg-warning" style="width: 30%">Biology: 30%</div>
+            </div>
+        </div>
+    </body>
